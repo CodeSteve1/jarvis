@@ -10,7 +10,7 @@ openai.api_key=''
 engine = pyttsx3.init(driverName='sapi5')
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
-engine.say("HELLO BOSS ...i am your assistant ...jarvis!")
+engine.say(i am your assistant ...jarvis!")
 engine.runAndWait()
 voice_assistant_name="jarvis"
 
